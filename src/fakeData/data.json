@@ -1,0 +1,26 @@
+[
+    {
+        "img": "https://i.ibb.co/mcnXGD2/Frame.png",
+        "vehicleType": "bike",
+        "cost": 5,
+        "seat": 1
+    },
+    {
+        "img": "https://i.ibb.co/2Myhjpz/Frame-2.png",
+        "vehicleType": "car",
+        "cost": 10,
+        "seat": 4
+    },
+    {
+        "img": "https://i.ibb.co/Wf1354P/Frame-1.png",
+        "vehicleType": "bus",
+        "cost": 7,
+        "seat": 1
+    },
+    {
+        "img": "https://i.ibb.co/k4R4Xcy/Group.png",
+        "vehicleType": "train",
+        "cost": 12,
+        "seat": 1
+    }
+]

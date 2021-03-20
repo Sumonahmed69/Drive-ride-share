@@ -1,0 +1,22 @@
+.card {
+    padding: 30px;
+    margin: 45px;
+    text-align: center;
+    background-color: rgba(255, 196, 0, 0.178);
+}
+
+.card:hover {
+    box-shadow: 2px 2px 15px grey;
+}
+
+#vehicles-btn {
+    border-radius: 10px;
+    background-color: limegreen;
+    padding: 10px;
+    border: navajowhite;
+    margin: 10px;
+}
+
+#vehicles-btn:hover {
+    box-shadow: 3px 2px 15px green;
+}
