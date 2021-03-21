@@ -1,9 +1,43 @@
-.login-frm{
+.login-frm {
     text-align: center;
 }
-.login-input{
-    
-    
+
+.login-input {
     margin: 10px;
-    
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.157);
 }
+
+h4 {
+    font-weight: bolder;
+    color: black;
+}
+
+.form {
+    width: 500px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 20px;
+}
+#btn{
+    border-radius: 5px;
+    background-color: rgba(0, 255, 0, 0.459);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: grey;
+}
+#google-btn{
+    border-radius: 10px;
+    background-color:rgba(81, 224, 24, 0.137);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+.icon{height: 20px;}

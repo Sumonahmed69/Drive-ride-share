@@ -14,17 +14,13 @@ const Home = () => {
     }, [])
 
     return (
-        <div>
 
-
-
-            <div className="row" >
-                {
-                    vehicles.map(vehicle => <Vehicles vehicle={vehicle} > </Vehicles>)
-                }
-            </div>
-
+        <div className="row" >
+            {
+                vehicles.map(vehicle => <Vehicles vehicle={vehicle} > </Vehicles>)
+            }
         </div>
+
     );
 };
 

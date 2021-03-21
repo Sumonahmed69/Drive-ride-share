@@ -8,9 +8,9 @@ import {
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
-import Blog from './components/Blog/Blog';
 import Destination from './components/Destination/Destination';
 import { createContext, useState } from 'react';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 export const UserContext = createContext();
 
@@ -26,13 +26,14 @@ function App() {
 
 
         <Header />
+        {/* <h1> user : {loggedInUser.email}</h1> */}
         <Switch>
           <Route path="/home">
             <Home />
           </Route>
-          <Route path="/destination">
+          <PrivateRoute path="/destination">
             <Destination />
-          </Route>
+          </PrivateRoute>
 
           <Route path="/login">
             <Login />
